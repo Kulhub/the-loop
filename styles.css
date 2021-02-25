@@ -5,7 +5,7 @@ body{
 }
 /*--------nav------------*/
 .container{
- max-width: 1920px;
+ max-width: 1420px;
  width: 100%;
  margin: auto;
 }
@@ -93,6 +93,7 @@ body{
 .rub {
 	background: #212121;
 	color: white;
+	position: relative;
 }
 .rub_inner{
 	padding: 50px 0;
@@ -107,7 +108,8 @@ body{
 	border:;
 	position: relative;
 	display: flex;
-	
+    justify-content: space-between;
+
 
 }
 
@@ -115,14 +117,216 @@ body{
 	line-height: 50px;
 	font-size: 24px;
 	font-weight: 300;
+
 }
 .block1{
-	background-color: red;
+	background-color: #F9F6F1;
 	width: 50%;
+
+
 }
 .block2{
-	background-color: green;
+	background-color: #F4F4F4;
 	width: 50%;
 }
-/*----------------------collection-------------*/
+.block button{
+	background: #D7B399;
+	padding: 15px 50px;
+	border: 3px #D7B399;
+	margin-top: 20px;
+	color: white;
+}
+.block1,.block2{
+	display: flex;
+	justify-content: space-between;
+} 
+.block1 .muj,.block2 .jen{
+	align-self: flex-start;
+	padding: 50px 0px;
 
+}
+.block1 img,.block2 img{
+	align-self: flex-end;
+}
+.block p{
+	font-size: 40px;
+}
+	
+/*----------------------collection-------------*/
+.t-short-inner{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-bottom: 10px;
+  }
+  .t-short-inner img{
+  	width: 100%
+  }
+.assal-inner{
+	padding: 40px 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.kokteyl_inner{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+	margin-bottom: 0px;
+}
+
+.kokteyl_inner img{
+	width: 100%
+}
+
+}
+.kokteyl_inner{
+	padding: 60px 0;
+	text-align: center;
+	font-size: 60px;
+}
+.koktey-item{
+	font-size: 40px;
+	text-align: center;
+}
+.koktey-item p{
+	color: #D7B399;
+} 
+.button button{
+	background: #D7B399;
+	padding: 20px 50px;
+	border: 3px #D7B399;
+	margin-top: 20px;
+	color: white;
+}
+.button{
+	text-align: center;
+	margin-top: 20px;
+}
+.podarka{
+	background: #212121;
+	margin-top: 200px;
+}
+
+.podarka_inner{
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	color: white;
+}	
+.podarka_inner p{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+.podarka_inner input{
+	background: #F9F6F1;
+	font-size: 18px;
+	padding: 10px;
+	outline: none;
+}
+.podarka_inner button{
+	background: #D7B399;
+	font-size: 18px;
+	padding: 10px;
+	outline: none;
+	color: white;
+}
+
+
+
+.assal-inner{
+	padding: 40px 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.kokteyl_inner{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+	margin-bottom: 0px;
+}
+
+.kokteyl_inner img{
+	width: 100%
+}
+
+}
+.kokteyl_inner{
+	padding: 60px 0;
+	text-align: center;
+	font-size: 60px;
+}
+.koktey-item{
+	font-size: 30px;
+	text-align: center;
+}
+.koktey-item p{
+	color: #D7B399;
+} 
+.button button{
+	background: #D7B399;
+	padding: 20px 50px;
+	border: 3px #D7B399;
+	margin-top: 20px;
+	color: white;
+}
+.button{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.theloop {
+	background: #212121;
+	margin-top: 180px;
+}
+.theloop_inner{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+
+    padding: 40px 0;
+    color: white;
+}	
+.theloop_inner  li{
+	
+	list-style: none;
+}
+.theloop_inner div:first-child{
+	width: 230px;
+}
+.logo{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+.logo p{
+	margin-left: 10px;
+}
+
+
+.Copyright{
+	background: #E5E5E5;
+	padding: 20px 0;
+    display: flex;
+
+
+}
+.Copyright p{
+	padding: 30px 0;
+	color: #212121;
+
+}
+.Copyright_inner{
+	display: flex;
+	justify-content: space-between;
+}
